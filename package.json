@@ -3,7 +3,7 @@
   "main": "./lib/heapofatoms",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "repository": "https://github.com/atom/heapofatoms",
+  "repository": "https://github.com/Raynes/heapofatoms",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
