@@ -1,0 +1,30 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Create Paste'
+      'command': 'heapofatoms:Create Paste'
+    }
+    {
+      'label': 'Create Private Paste'
+      'command': 'heapofatoms:Create Private Paste'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Heap of Atoms'
+      'submenu': [
+        {
+          'label': 'Create Paste'
+          'command': 'heapofatoms:Create Paste'
+        }
+        {
+          'label': 'Create Private Paste'
+          'command': 'heapofatoms:Create Private Paste'
+        }
+      ]
+    ]
+  }
+]
